@@ -35,12 +35,28 @@
     background: #67a5ed;
 
 }
+
 .tw-folowCard-button.is-followind {
-    border: 1px solid red;
+    border: 1px solid rgb(232, 232, 232);
     background: transparent;
-    color: red;
+    color: #fff;
+    width: 140px;
 }
 .tw-folowCard-button.is-followind:hover {
-    background: red;
-    color: black;
+    background: rgba(255, 0, 0, 0.086);
+    color: red;
+    border: 1px solid red;
+}
+.tw-folowCard-text {
+    display: block;
+}
+.tw-folowCard-stopFollow{
+    display: none;
+}
+
+.tw-folowCard-button.is-followind:hover .tw-folowCard-text{
+    display:none;
+}
+.tw-folowCard-button.is-followind:hover .tw-folowCard-stopFollow{
+    display: block;
 }

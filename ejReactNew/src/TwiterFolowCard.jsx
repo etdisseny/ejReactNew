@@ -25,7 +25,8 @@ export const TwiterFolowCard = ({ img, userName, name, formatUserName }) => {
       </header>
       <aside>
         <button className={classButton} onClick={handleClick}>
-          {text}
+          <span className="tw-folowCard-text">{text}</span>
+          <span className="tw-folowCard-stopFollow">Dejar de seguir</span>
         </button>
       </aside>
     </article>
